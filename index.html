@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Postfoliyo webPage</title>
+    <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/52a0763d98.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+
+         <div class="container lg">
+             <nav>
+                 <img src="images/Logo.jpg" class="logo" />
+                 <!-- <p class="lg">oder Mahi</p> -->
+
+                 <ul id="sidemenu">
+                    
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#portfoliyo">Portfoliyo</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+             </nav>
+
+             <div class="header-text">
+                 <h1>Hi! I a'm  <span>Mahendra</span> <br>Kumar Meena From India</h1>
+                  <p class="txt">
+                     I a'm a <span class="role"></span>
+                  </p>
+             </div>
+             <!-- <div class="faded-text">Coder Mahi</div> -->
+         </div>
+    </div>
+
+
+<!-- ---------------------About section---------------------- -->
+    <div id="about">
+         <div class="container">
+              <div class="row">
+                  <div class="about-col-1">
+                      <img src="images/IMG_20250324_224753.jpg" class="img1"/>
+                  </div>
+                  <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                         I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as a software developer.
+                       
+                        <!-- <div class="btn-pink" id="btn">Hire Me</div> -->
+                    </p>
+
+                    <div class="tab-titles">
+                          <p class='tab-links active-link' onclick="opentab('skills')">Skills</p>
+                          <p class='tab-links' onclick="opentab('experience')">Experience</p>
+                          <p class='tab-links' onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Desingning Web/App interfaces</li><br>
+                             <li><span>Web Development</span><br>Web app Development</li><br>
+                              <li><span>App Development</span><br>Building Androids/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>March - 2025</span><br>Full-Stack Development at PRASUNET Pvt. Ltd.</li><br>
+                             <li><span>2023</span><br>Competitive Progamming Language at Regex software Pvt. Ltd.</li><br>
+                              <li><span>2022</span><br>C Language at Smyak Pvt. Ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Graduate at SMCET from jaipur.</li><br>
+                             <li><span>2021</span><br>12th at Govt Sr. Sec. School jamwaramgarh jaipur.</li><br>
+                              <li><span>App Development</span><br>12th at Govt Sr. Sec. School jamwaramgarh jaipur.</li>
+                        </ul>
+                    </div>
+                  </div>
+              </div>
+         </div>
+    </div>
+
+
+<!-- ------------------------------Services -------------------------------- -->
+    <div id="services">
+         <div class="container">
+             <h1>My Services</h1>
+             <div class="services-list">
+                <div >
+                    <i class="fas fa-code"></i>
+                     <h2>Web Design</h2>
+                     <p>
+                        I am a Web Designer with a passion for creating visually appealing, user-friendly websites. I focus on responsive design, clean layouts, and modern UI/UX principles to ensure a seamless experience across all devices. My goal is to combine aesthetics with functionality, helping brands stand out online and connect effectively with their audience.
+                     </p>
+                     <a href="#">Learn more</a>
+                </div>
+
+                <div >
+                    <i class="fas fa-crop-alt"></i>
+                     <h2>UI/UX Design</h2>
+                     <p>
+                        UI/UX Design: Skilled in designing intuitive and engaging user interfaces with a focus on user-centered experiences. Proficient in wireframing, prototyping, and usability testing to create responsive and accessible digital products.
+                     </p>
+                     <a href="#">Learn more</a>
+                </div>
+
+                <div >
+                    <i class="fa-brands fa-app-store-ios"></i>
+                     <h2>App Design</h2>
+                     <p>
+                        I am an App Developer focused on building fast, user-friendly, and scalable mobile and web applications. I specialize in creating smooth user experiences using modern technologies and clean code practices. From UI design to backend integration, I aim to deliver apps that solve real problems and perform reliably across devices.
+                     </p>
+                     <a href="#">Learn more</a>
+                </div>
+             </div>
+         </div>
+    </div>
+
+
+<!-- ------------------------------- Portfoliyo ---------------------------------------------- -->
+ <div id="portfoliyo">
+      <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+             <div class="work">
+                 <img src="images/work-1.png">
+                 <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>
+                        The app connects you to the talented peaple around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                 </div>
+             </div>
+
+             <div class="work ">
+                 <img src="images/work-2.png">
+                 <div class="layer">
+                    <h3>Music App</h3>
+                    <p>
+                        The app connects you to the talented peaple around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                 </div>
+             </div>
+
+             <div class="work">
+                   <img src="images/work-3.png">
+                    <div class="layer">
+                         <h3>Online Shopping App</h3>
+                        <p>
+                            The app connects you to the talented peaple around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+             </div>
+          </div>
+      </div>
+      <a href="#" class="btn">See More</a>
+ </div>
+
+
+ <!-- ---------------------------------------- Contact - ------------------------------------------ -->
+  <div id="contact">
+        <div class="container">
+            <div class="row">
+                 <div class="contact-left">
+                      <h1 class="sub-title">Contact Me</h1>
+                      <p><i class="fas fa-paper-plane"></i>mahendrameena894919@gmail.com</p><br>
+                      <p><i class="fas fa-phone-square-alt"></i>8949193373</p>
+                      <div class="social-icons">
+                              <a href=""><i class="fab fa-facebook"></i></a>
+                              <a href=""><i class="fab fa-twitter-square"></i></a>
+                              <a href="https://www.instagram.com/mahe_ndra_meena6692/profilecard/?igsh=MTloMWU0OGlpam5jaw=="><i class="fab fa-instagram"></i></a>
+                              <a href="https://www.linkedin.com/in/mahendra-kumar-meena-01911426a/"><i class="fab fa-linkedin"></i></a>
+                              <!-- <a href=""><i class="fab fa-facebook"></i></a> -->
+                      </div>
+                      <a href="images/Mahendra-Kumar-Meena-FlowCV-Resume-20250218 (1) (1).pdf" download class="btn btn2">Download CV</a>
+                 </div>
+                 <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="phoneno" name="Phone No" placeholder="Phone Number" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                 </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+             <p>Made with <i class="fas fa-heart"></i> CoderMahi  © 2025 Portfoliyo WebPage</p>
+        </div>
+  </div>
+
+
+<!-- JavaScript functionlities -->
+    <script>
+         var tablinks = document.getElementsByClassName("tab-links");
+
+         var tabcontents = document.getElementsByClassName("tab-contents");
+
+         function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+         }
+    </script>
+
+
+<script>
+
+     var sidemenu = document.getElementById("sidemenu");
+
+     function openmenu(){
+        sidemenu.style.right = "0";
+     }
+
+     function closemenu(){
+        sidemenu.style.right  = "-200px";
+     }
+
+</script>
+
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyPfC6m0tWZXBCr2ICJNIf_14jFxC9LI_jIcuQd_9mwiDnMRV_UulQcXEVeV8Yyh4MB_Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+               
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(() => {
+                msg.innerHTML = "";
+            }, 2000);
+
+            form.reset();
+
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Full Stack Developer",
+                "Web Developer",
+                "UI-UX Designer",
+                "Backend Developer",
+                "Competitive Programmer",
+                "App Developer"
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+</body>
+</html>
